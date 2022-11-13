@@ -16,7 +16,7 @@ const MessageContent = () => {
     <div className="message_container">
             <div className="message_wrapper">
                 <div className="top_sec">
-                    <h1>1 Messages</h1>
+                    <h1>{messages.length} Messages</h1>
                 </div>
                 <div className="bottom_sec">
                   {messages.map((message)=>(
