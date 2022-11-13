@@ -1,0 +1,70 @@
+{
+    "contacts": [
+        {
+            "id":1,
+            "firstName": "Kevin",
+            "lastName": "Debruyne",
+            "phoneNumber":"9446827318"
+        },
+        {
+            "id":2,
+            "firstName": "Granit",
+            "lastName": "Xhaka",
+            "phoneNumber":"9446827318"
+        },
+        {
+            "id":3,
+            "firstName": "Martin",
+            "lastName": "Odegard",
+            "phoneNumber":"9446827318"
+        },
+        {
+            "id":4,
+            "firstName": "Fabio",
+            "lastName": "Viera",
+            "phoneNumber":"9446827318"
+        },
+        {
+            "id":5,
+            "firstName": "Aaron",
+            "lastName": "Ramsdale",
+            "phoneNumber":"9446827318"
+        },
+        {
+            "id":6,
+            "firstName": "William",
+            "lastName": "Saliba",
+            "phoneNumber":"9446827318"
+        },
+        {
+            "id":7,
+            "firstName": "Gabriel",
+            "lastName": "Martinelli",
+            "phoneNumber":"9446827318"
+        },
+        {
+            "id":8,
+            "firstName": "Bukayo",
+            "lastName": "Saka",
+            "phoneNumber":"9446827318"
+        },
+        {
+            "id":9,
+            "firstName": "Gabriel",
+            "lastName": "Jesus",
+            "phoneNumber":"9446827318"
+        },
+        {
+            "id":10,
+            "firstName": "Thomas",
+            "lastName": "Partey",
+            "phoneNumber":"9446827318"
+        },
+        {
+            "id":11,
+            "firstName": "Erling",
+            "lastName": "Haaland",
+            "phoneNumber":"9446827318"
+        }
+    ]
+}

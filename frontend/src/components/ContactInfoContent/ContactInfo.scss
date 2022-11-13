@@ -1,0 +1,37 @@
+.contact_info_container{
+    height: calc(100vh - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .contact_info_wrapper{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        border-radius: 20px;
+        gap: 1rem;
+
+        h2{
+            text-align: center;
+        }
+
+        span{
+            color: rgb(255, 117, 140);
+        }
+
+        button{
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 20px;
+            background-color: rgb(255, 181, 193);
+            color: black;
+            font-size: 16px;
+            border: none;
+            transition: all .3s ease-in-out;
+
+            &:hover{
+                background-color: rgb(229, 130, 147);
+            }
+        }
+    }
+}
