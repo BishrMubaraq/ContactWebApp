@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './ComposeMessageContent.scss'
 import { useLocation } from 'react-router-dom'
 import axiosInstance from '../../utils/axiosInstance'

@@ -5,7 +5,7 @@ import Layout from '../../components/Layout/Layout'
 function MainPage() {
   return (
     <>
-    <Layout children={<ContactsContent/>} />
+      <Layout children={<ContactsContent />} />
     </>
   )
 }

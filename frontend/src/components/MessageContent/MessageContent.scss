@@ -1,39 +1,42 @@
-.message_container{
+.message_container {
     height: calc(100vh - 90px);
     max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-    
-    .message_wrapper{
+
+    .message_wrapper {
         background-color: white;
         padding: 2rem;
         border-radius: 20px;
 
-        h1{
+        h1 {
             font-size: 20px;
             margin-bottom: 1rem;
         }
-        .bottom_sec{
+
+        .bottom_sec {
             display: flex;
             flex-direction: column;
             padding: .2rem;
             gap: 1rem;
             height: 300px;
             overflow: scroll;
+
             &::-webkit-scrollbar {
                 display: none;
-              }
+            }
         }
     }
 }
 
 @media screen and (max-width:765px) {
-    .message_container{
+    .message_container {
         width: 100%;
         padding: 2rem;
-        .message_wrapper{
+
+        .message_wrapper {
             width: 100%;
         }
     }

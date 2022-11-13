@@ -1,11 +1,11 @@
-.compose_message_container{
+.compose_message_container {
     height: calc(100vh - 90px);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    
-    .compose_message_wrapper{
+
+    .compose_message_wrapper {
         background-color: white;
         padding: 1rem;
         border-radius: 20px;
@@ -16,25 +16,26 @@
         justify-content: center;
         height: 200px;
 
-        .form{
+        .form {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             gap: 1rem;
-            
-            input{
+
+            input {
                 padding: 10px;
                 width: 250px;
                 border: 1px solid palevioletred;
                 border-radius: 20px;
 
-                &:focus{
+                &:focus {
                     outline: 2px solid pink;
                 }
 
             }
-            button{
+
+            button {
                 padding: 5px;
                 width: 100px;
                 border-radius: 20px;
@@ -42,7 +43,8 @@
                 border: 1px solid pink;
                 background-color: pink;
                 transition: all .2s ease-in;
-                &:hover{
+
+                &:hover {
                     background-color: rgba(255, 192, 203, 0.67);
                 }
             }

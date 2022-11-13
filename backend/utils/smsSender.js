@@ -3,6 +3,7 @@ const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
 const client = require('twilio')(accountSid, authToken);
 
+// Send sms to a contact
 const sendSms = (body) => {
     return new Promise((resolve, reject) => {
         client.messages.create({
@@ -17,6 +18,6 @@ const sendSms = (body) => {
     })
 }
 
-module.exports={
+module.exports = {
     sendSms
 }

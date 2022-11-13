@@ -1,21 +1,25 @@
-.contact_card_container{
+.contact_card_container {
     width: 600px;
     border-radius: 20px;
     transition: all .2s ease-in;
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         box-shadow: 1px 1px 5px 5px rgba(255, 192, 203, 0.436);
     }
-    .contact_card_wrapper{
+
+    .contact_card_wrapper {
         display: flex;
         align-items: center;
         padding: .2rem;
         gap: 1rem;
         width: 100%;
-        .left_sec{
+
+        .left_sec {
             display: flex;
             width: 50px;
-            img{
+
+            img {
                 border: solid 2px rgba(255, 192, 203, 0.195);
                 width: 100%;
                 object-fit: cover;
@@ -24,8 +28,9 @@
         }
     }
 }
+
 @media screen and (max-width:765px) {
-    .contact_card_container{
+    .contact_card_container {
         width: 100%;
     }
 }

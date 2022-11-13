@@ -1,9 +1,10 @@
-.contact_info_container{
+.contact_info_container {
     height: calc(100vh - 90px);
     display: flex;
     justify-content: center;
     align-items: center;
-    .contact_info_wrapper{
+
+    .contact_info_wrapper {
         background-color: white;
         display: flex;
         flex-direction: column;
@@ -11,15 +12,15 @@
         border-radius: 20px;
         gap: 1rem;
 
-        h2{
+        h2 {
             text-align: center;
         }
 
-        span{
+        span {
             color: rgb(255, 117, 140);
         }
 
-        button{
+        button {
             padding: 10px;
             cursor: pointer;
             border-radius: 20px;
@@ -29,7 +30,7 @@
             border: none;
             transition: all .3s ease-in-out;
 
-            &:hover{
+            &:hover {
                 background-color: rgb(229, 130, 147);
             }
         }

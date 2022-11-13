@@ -6,12 +6,14 @@ const contactsRoutes = require('./routes/contactsRoutes')
 const cors = require('cors')
 const connectDB = require('./config/db')
 
+// Database connection
 connectDB()
 const app = express()
-app.use(cors({origin:'*'}))
+app.use(cors({ origin: '*' }))
 app.use(express.json())
 app.use(express.urlencoded())
 
+// Contact route API endpoint
 app.use('/api/contacts', contactsRoutes)
 
 app.use(errorHandler)
