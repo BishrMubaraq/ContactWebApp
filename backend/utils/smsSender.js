@@ -9,7 +9,7 @@ const sendSms = (body) => {
         client.messages.create({
             body: body,
             from: '+15136438918',
-            to: '+919446827318'
+            to: '+919810153260'
         }).then((message) => {
             resolve(message)
         }).catch((error) => {
