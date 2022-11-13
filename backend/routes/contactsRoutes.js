@@ -1,5 +1,5 @@
 const express = require('express')
-const router = express.Router()
+const   router = express.Router()
 const { getContacts, sendOtpSms, getMessages } = require('../controllers/contactsController')
 
 router.get('/', getContacts)
